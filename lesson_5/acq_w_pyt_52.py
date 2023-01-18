@@ -99,7 +99,7 @@ if player_spice == '4':
                 candle_amount = candle_amount - candle_take
                 print(f'бот взял {candle_take} конфет, вы проиграли')
                 break
-            elif 30 < candle_amount < 57:
+            elif 30 <= candle_amount <= 57:
                 candle_take = candle_amount - 29
                 candle_amount = candle_amount - candle_take
                 print(f'бот взял {candle_take} конфет, осталось {candle_amount}')
